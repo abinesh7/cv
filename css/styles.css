@@ -65,7 +65,7 @@ h1 {
   text-align: center;
   color: #29c7ac;
   font-family: 'Sacramento', cursive;
-  width: 30%;
+    width: 50%;
   margin: 0 auto 0 auto;
 }
 
@@ -74,6 +74,7 @@ h2 {
   color: #a0ffe6;
   font-family: 'Indie Flower', cursive;
   margin: 0 auto 0 auto;
+	width: 40%;
 }
 
 h3 {
@@ -114,6 +115,9 @@ hr {
 p {
   text-align: center;
   font-family: 'Lemonada', cursive;
+	width: 50%;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .head1 {
