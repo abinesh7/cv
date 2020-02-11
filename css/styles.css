@@ -1,0 +1,178 @@
+
+.a{
+  text-decoration: none;
+} 
+.navi {
+  border-color: #a0ffe6;
+  display: inline;
+  list-style-type: none;
+  position: fixed;
+  text-decoration: none;
+}
+
+.HOME {
+  color: #29c7ac;
+  font-style: italic;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-shadow: 10px;
+  text-decoration: none;
+}
+
+.HOME:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.aboutme {
+  color: #29c7ac;
+  font-style: italic;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+    text-decoration: none;
+}
+
+.aboutme:hover {
+  color: red;
+    text-decoration: underline;
+}
+
+.contact {
+  color: #29c7ac;
+  font-style: italic;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+    text-decoration: none;
+}
+
+.contact:hover {
+  color: red;
+    text-decoration: underline;
+}
+
+body {
+  animation: mycolour 5s;
+}
+
+@keyframes mycolour {
+  from {
+    background-color: #f64b3c;
+  }
+
+  to {
+    background-color: #f1fcf;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: #29c7ac;
+  font-family: 'Sacramento', cursive;
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+
+h2 {
+  text-align: center;
+  color: #a0ffe6;
+  font-family: 'Indie Flower', cursive;
+  margin: 0 auto 0 auto;
+}
+
+h3 {
+  text-align: center;
+  color: #a0ffe6;
+  font-family: 'Indie Flower', cursive;
+  margin: 0 auto 0 auto;
+}
+
+.topimg {
+  background-color: #E1F4F3;
+  display: block;
+
+  width:20%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+
+}
+
+.hiimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 110%;
+  width: 10%;
+}
+
+hr {
+  margin-top: 100px;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 5%;
+  color: #3282b8;
+  margin-bottom: 100px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Lemonada', cursive;
+}
+
+.head1 {
+  display: inline;
+}
+
+.cloud {
+  position: relative;
+  left: 50px;
+}
+
+.body7{
+  margin-top: 50px;
+text-align: center;
+
+}
+
+.MESS {
+
+	background-color:#10a19c;
+	border-radius:22px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+font-family: 'Lemonada', cursive;
+	font-size:20px;
+	padding:1px 10px;
+	text-decoration:none;
+	text-shadow:1px 2px 16px #050505;
+
+
+}
+.MESS:hover {
+	background-color:#1cafdb;
+}
+.MESS:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+.copyright {
+  font-family: cursive;
+  font-style: normal;
+  color: #5d5b6a;
+}
+
+.copyright:hover{
+  font-family:'Lemonada', cursive;
+  color: #fb5b5a;
+  text-decoration: underline;
+}
+
+.foot{
+  height: 50px;
+  width: auto;
+  background-color: #9dd8c8;
+  margin-top: 100px;
+}
